@@ -1,3 +1,4 @@
+// fungsi dari toogle 
 function toggleDetail(e) {
   const target = $(e.target);
 
@@ -13,6 +14,7 @@ function toggleDetail(e) {
   $(detail).slideToggle();
 }
 
+// fungsi dari form wajib diisi
 function onFormSubmit(e) {
   e.preventDefault()
   const email = $("#inp_email")
